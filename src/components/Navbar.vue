@@ -14,7 +14,7 @@
     </v-app-bar>
     <!-- app is needed here , so that nav-drawer will come on top of the toolbar also.If not given , 
     then toolbar will be on top of nav drawer and a part of nav drawer will be overlapped by toolbar-->
-    <v-navigation-drawer app class="indigo" v-model="drawer">
+    <v-navigation-drawer app class="primary" v-model="drawer">
       <p>test</p>
     </v-navigation-drawer>
   </nav>
